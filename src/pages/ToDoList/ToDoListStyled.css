@@ -1,0 +1,81 @@
+
+.btn{
+    background-color: rgb(14, 160, 41);
+    color: #fff;
+    cursor: pointer;
+    padding: 0 20px;
+    /* border: 1px solid #fff; */
+    border-radius: 10px;
+    transition: all .3s;
+    margin-right: 10px;
+  }
+  
+  .btn:hover{
+    background-color: #008118;
+    transform: scale(1.1);
+  }
+  
+  .btnEditar{
+    background-color: white;
+    color: #4079c9;
+    padding: 7px;
+    border: 1px solid #4079c9;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .5s;
+  }
+  
+  
+  .btnEditar:hover{
+    background-color: #cbd8ea;
+    transform: scale(1.1);
+  }
+  
+  .btnBorrar{
+    background-color: white;
+    color: #bc0909;
+    padding: 7px;
+    border: 1px solid #bc0909;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .1s;
+  }
+  
+  .btnBorrar:hover{
+    background-color: #bc0909;
+    transform: scale(1.1);
+    color: white;
+  }
+  
+  .btnModificar{
+    background-color: white;
+    color: #008118;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 50%;
+    border: 1px solid #008118;
+    transition: all .3s;
+    margin-right: 10px;
+  }
+  
+  .btnModificar:hover{
+    background-color: #008118;
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: all .3s;
+    margin-right: 10px;
+  }
+
+  
+
+  .todoTarea{
+    margin-right: 50px;
+    color: #000;
+  }
+  
+  .spanSubrayada{
+    text-decoration: line-through;
+  }
